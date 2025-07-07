@@ -13,18 +13,26 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "dinner",
             image: "images/biryani.jpg",
             ingredients: [
-                "200g penne pasta", "1 can (400g) chopped tomatoes", "2 cloves garlic, minced",
-                "1/2 tsp red pepper flakes (or more)", "2 tbsp olive oil", "Salt and black pepper to taste",
-                "Fresh parsley for garnish"
+                "Basmati Rice",
+                "Chicken/Mutton/Lamb",
+                "Ginger/Garlic Past",
+                "Onion",
+                "Bay Leaves, Cardomonm, Cloves, Cumin Seeds",
+                "Turmeric Powder, Red Chili Powder (adjust to your spice preference), Coriander Powder, Cumin Powder.",
+                "Saffron"
             ],
             instructions: [
-                "Cook pasta according to package directions until al dente.",
-                "While pasta cooks, heat olive oil in a large skillet over medium heat.",
-                "Add minced garlic and red pepper flakes; sauté for 1 minute until fragrant.",
-                "Pour in chopped tomatoes, salt, and pepper. Bring to a simmer and cook for 10-15 minutes, allowing sauce to thicken slightly.",
-                "Drain pasta, reserving about 1/2 cup of pasta water.",
-                "Add cooked pasta to the sauce, tossing to combine. If needed, add a splash of reserved pasta water to reach desired consistency.",
-                "Garnish with fresh parsley and serve hot."
+                 "Wash and soak basmati rice for 30 minutes, then drain.",
+                "In a large pot or heavy-bottomed pan, heat ghee or oil.",
+                "Add thinly sliced onions and fry until deeply golden brown and crispy. Remove half for garnish.",
+                "To the remaining onions, add ginger-garlic paste and whole spices (bay leaves, cardamom, cinnamon, cloves, star anise, shahi jeera). Sauté for 1-2 minutes until fragrant.",
+                "Add chicken/meat pieces and brown them on all sides.",
+                "Stir in yogurt, ground spices (turmeric, red chili, coriander, cumin, garam masala/biryani masala), and salt. Cook until meat is tender and gravy thickens, stirring occasionally.",
+                "Meanwhile, par-boil the soaked rice: bring a large pot of water to a rolling boil with salt. Add the drained rice and cook until about 70% done (it should still have a bite). Drain immediately.",
+                "Layer the biryani: In a large, heavy-bottomed pot, spread half of the par-boiled rice. Top with the cooked meat and gravy. Sprinkle with fresh mint and coriander leaves, and some of the fried onions.",
+                "Add the remaining rice on top. Drizzle with saffron milk (if using) and the rest of the mint, coriander, and fried onions.",
+                "Cover the pot tightly with a lid (you can seal with dough for a traditional dum) and cook on very low heat for 20-30 minutes, allowing flavors to meld and rice to fully cook.",
+                "Gently fluff the biryani with a fork before serving."
             ]
         },
         {
@@ -34,17 +42,43 @@ document.addEventListener('DOMContentLoaded', () => {
             category: ["dinner", "lunch"],
             image: "images/mash-daal.jpg", // Make sure to have this image!
             ingredients: [
-                "1 1/2 cups all-purpose flour", "2 tbsp sugar", "1 tbsp baking powder",
-                "1/2 tsp salt", "1 1/4 cups milk", "1 large egg", "2 tbsp melted butter",
-                "1 cup fresh blueberries"
+                 "1 cup Mash Daal (Split Urad Dal, skinless)",
+                 "3 cups water (for cooking daal, adjust as needed)",
+                 "1 large onion, finely chopped",
+                 "2 medium tomatoes, chopped or pureed",
+                 "1 tbsp ginger paste",
+                 "1 tbsp garlic paste",
+                 "2-3 green chilies, slit or chopped (adjust to taste)",
+                 "1/2 tsp turmeric powder",
+                 "1 tsp red chili powder (adjust to taste)",
+                 "1 tbsp coriander powder",
+                 "1/2 tsp cumin powder",
+                 "1/2 tsp garam masala",
+                 "1/4 cup cooking oil or ghee",
+                 "Salt to taste",
+                 "Fresh coriander leaves, chopped (for garnish)",
+                 "Fresh ginger, julienned (for garnish)",
+                 "For Tarka (Tempering):",
+                 "2 tbsp ghee or oil",
+                 "2-3 cloves garlic, thinly sliced",
+                 "1/2 tsp cumin seeds",
+                 "2-3 whole dried red chilies",
+                 "Pinch of asafoetida (hing, optional)"
             ],
             instructions: [
-                "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
-                "In a separate bowl, whisk together milk, egg, and melted butter.",
-                "Pour the wet ingredients into the dry ingredients and stir until just combined (don't overmix, lumps are okay!). Gently fold in the blueberries.",
-                "Heat a lightly oiled griddle or non-stick pan over medium heat.",
-                "Pour 1/4 cup of batter per pancake onto the griddle. Cook for 2-3 minutes per side, or until golden brown and cooked through.",
-                "Serve warm with maple syrup and extra blueberries."
+                "Wash Mash Daal thoroughly under running water until the water runs clear. Soak it in fresh water for at least 30 minutes, then drain.",
+                "In a large pot or pressure cooker, heat oil or ghee over medium heat.",
+                "Add finely chopped onions and sauté until they turn light golden brown.",
+                "Stir in ginger paste and garlic paste. Cook for 1-2 minutes until fragrant.",
+                "Add chopped tomatoes and green chilies. Cook, stirring, until tomatoes soften and oil begins to separate.",
+                "Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well and cook the spices for 2-3 minutes, adding a splash of water if needed to prevent burning.",
+                "Add the drained Mash Daal to the pot and mix well with the spices.",
+                "Pour in 3 cups of water (or enough to cover the daal by about an inch). Bring to a boil, then reduce heat to low, cover, and simmer for 20-30 minutes, or until the daal is tender but still holds its shape. (If using a pressure cooker, cook for 1 whistle, then simmer for 5-7 minutes).",
+                "Once cooked, stir in garam masala and half of the fresh chopped coriander.",
+                "Prepare the Tarka (Tempering): In a separate small pan, heat ghee or oil.",
+                "Add sliced garlic and fry until golden brown. Then add cumin seeds and whole dried red chilies. Cook until fragrant (add asafoetida if using).",
+                "Pour the hot tarka directly over the cooked daal. Stir gently.",
+                "Garnish with the remaining fresh coriander and julienned fresh ginger. Serve hot with roti or rice."
             ]
         },
         {
@@ -54,15 +88,35 @@ document.addEventListener('DOMContentLoaded', () => {
             category: ["dinner", "lunch"],
             image: "images/beefqeema.png", // Make sure to have this image!
             ingredients: [
-                "1 head romaine lettuce, chopped", "1 cup croutons", "1/2 cup grated Parmesan cheese",
-                "For the dressing:", "1/2 cup mayonnaise", "2 tbsp lemon juice", "1 tbsp Dijon mustard",
-                "1 clove garlic, minced", "1 tsp Worcestershire sauce", "Salt and black pepper to taste"
+                "500g (1 lb) beef mince/ground beef",
+                "2 large onions, finely chopped",
+                "2 tomatoes, chopped or pureed",
+                "1 tbsp ginger paste",
+                "1 tbsp garlic paste",
+                "2-3 green chilies, slit or chopped (adjust to taste)",
+                "1/2 cup yogurt (optional, for tenderizing and richness)",
+                "1/2 tsp turmeric powder",
+                "1 tsp red chili powder (adjust to taste)",
+                "1 tbsp coriander powder",
+                "1 tsp cumin powder",
+                "1/2 tsp garam masala",
+                "1/4 cup cooking oil or ghee",
+                "Salt to taste",
+                "Fresh coriander leaves, chopped (for garnish)",
+                "Fresh ginger, julienned (for garnish)",
+                "Water as needed"
             ],
             instructions: [
-                "In a small bowl, whisk together all dressing ingredients until smooth. Taste and adjust seasoning.",
-                "In a large bowl, combine chopped romaine lettuce and croutons.",
-                "Pour dressing over the lettuce and croutons, tossing gently to coat evenly.",
-                "Sprinkle with grated Parmesan cheese and serve immediately."
+                "Heat oil or ghee in a large pan or pot over medium heat.",
+                "Add finely chopped onions and sauté until golden brown.",
+                "Stir in ginger paste and garlic paste. Cook for 1-2 minutes until fragrant, being careful not to burn.",
+                "Add the beef mince. Cook, breaking it up with a spoon, until it changes color and any released water dries up.",
+                "Stir in chopped or pureed tomatoes, green chilies, turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well.",
+                "Cover the pot and cook on medium-low heat for 10-15 minutes, or until tomatoes soften and oil starts to separate, stirring occasionally.",
+                "If using, add yogurt and mix well. Cook for another 5-7 minutes, or until the yogurt water dries up and the oil separates again.",
+                "Add about 1/4 to 1/2 cup of water (or as needed for desired consistency). Bring to a simmer, then cover and cook on low heat for 15-20 minutes, or until the beef mince is completely tender.",
+                "Stir in garam masala. Cook for another 2-3 minutes.",
+                "Garnish with fresh chopped coriander leaves and julienned fresh ginger before serving hot with naan, roti, or rice."
             ]
         },
         {
@@ -72,13 +126,28 @@ document.addEventListener('DOMContentLoaded', () => {
             category: ["breakfast"],
             image: "images/1500px-Banana-Chocolate-Chip-Pancakes-13-square-846x846.jpg",
             ingredients: [
-                "1 cup of pancake flower", 
-                "2 spoons of chocolate chips", 
-                "5 spoons of water"
+                "1 cup all-purpose flour",
+                "1/4 cup unsweetened cocoa powder",
+                "2-3 tablespoons granulated sugar (adjust to taste)",
+                "1 teaspoon baking powder",
+                "1/2 teaspoon baking soda",
+                "1/4 teaspoon salt",
+                "1 cup milk (dairy or non-dairy)",
+                "1 large egg",
+                "2 tablespoons melted butter or vegetable oil",
+                "Optional: 1/2 cup chocolate chips (for extra chocolatey goodness)",
+                "Butter or oil for cooking the pancakes"
             ],
             instructions: [
-                "In a bowl or mixer, whisk together the pancake flower, and water until you have a not too thick or thin consistency, thicker than water however.",
-                "Then pour the mixture on to a pan, make sure to apply cooking spray/oil first to avoid sticking, and then way till many bubbles begin to form on the top, then flip."
+                "In a large bowl, whisk together the dry ingredients: all-purpose flour, unsweetened cocoa powder, granulated sugar, baking powder, baking soda, and salt.",
+                "In a separate medium bowl, whisk together the wet ingredients: milk, large egg, and vanilla extract.",
+                "Pour the melted butter or vegetable oil into the wet ingredients and whisk until combined.",
+                "Add the wet ingredient mixture to the dry ingredients. Stir gently with a spoon or whisk until just combined. A few lumps are fine; do not overmix, as this can make the pancakes tough.",
+                "If using, gently fold in the chocolate chips.",
+                "Heat a lightly oiled or buttered non-stick griddle or large pan over medium-low to medium heat.",
+                "Pour about 1/4 to 1/3 cup of batter per pancake onto the hot griddle.",
+                "Cook for 2-4 minutes per side, or until bubbles appear on the surface, the edges look set, and the pancake is golden brown underneath. Flip and cook for another 1-2 minutes until cooked through.",
+                "Serve hot with your favorite toppings like syrup, whipped cream, or fresh berries."
             ],
         },
         {
@@ -107,12 +176,33 @@ document.addEventListener('DOMContentLoaded', () => {
             category: ["lunch", "dinner"],
             image: "images/IMG_5120.jpg",
             ingredients: [
-                "Chicken Boneless Thigh",
-                "Masala"
+                "500g (about 1 lb) boneless chicken (thighs or breast), cut into bite-sized pieces",
+                "1/4 - 1/2 cup thick yogurt (Greek yogurt or hung curd works best)",
+                "1 tbsp ginger paste",
+                "1 tbsp garlic paste",
+                "1-2 green chilies, minced or pasted (adjust to taste)",
+                "1 tsp red chili powder (Kashmiri chili powder for color, or regular for heat)",
+                "1 tsp coriander powder",
+                "1/2 tsp cumin powder",
+                "1/2 tsp turmeric powder",
+                "1/2 tsp garam masala",
+                "1/4 tsp black pepper powder",
+                "1-2 tbsp lemon juice",
+                "Salt to taste",
+                "1 tbsp oil or melted ghee (for marinade)",
+                "Optional: Pinch of orange or red food color (for vibrant color)",
+                "Optional: 1/4 tsp chaat masala (for garnish/sprinkle after cooking)",
+                "Optional: Fresh coriander leaves, chopped (for garnish)"
             ],
             instructions: [
-                "Cut chicken into cubes, bite-sized pieces.",
-                "Marinate with masala."
+                "Wash the chicken pieces thoroughly and pat them completely dry. This helps the marinade stick better.",
+                "In a large bowl, combine the thick yogurt, ginger paste, garlic paste, minced green chilies, red chili powder, coriander powder, cumin powder, turmeric powder, garam masala, black pepper, lemon juice, salt, and oil (and food color if using). Mix everything together to form a smooth marinade.",
+                "Add the dried chicken pieces to the marinade. Toss well to ensure every piece is evenly coated. Cover the bowl and marinate in the refrigerator for at least 4 hours, or preferably overnight, for best flavor and tenderness.",
+                "If using wooden skewers, soak them in water for at least 30 minutes before threading the chicken to prevent them from burning.",
+                "Preheat your grill, barbecue, or oven broiler to medium-high heat. If using a pan, heat a lightly oiled pan over medium-high heat.",
+                "Thread the marinated chicken pieces onto skewers, making sure not to overcrowd them so they cook evenly.",
+                "Grill, barbecue, or broil the chicken skewers, turning occasionally, for 10-15 minutes, or until the chicken is cooked through, tender, and has a beautiful charred exterior. Cooking time will vary based on heat and chicken piece size.",
+                "Serve hot, optionally sprinkled with chaat masala, and garnished with fresh coriander and lemon wedges."
             ]
         },
         {
