@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Awesome Cookbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mom's Culinary Creations</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#recipes">Recipes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="recipes">
+        <section class="recipe-filter">
+            <input type="text" id="searchInput" placeholder="Search recipes...">
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="dessert">Dessert</option>
+                <option value="drinks/beverages">Drinks/Beverages</option>
+            </select>
+            <button id="clearFilters">Clear Filters</button>
+        </section>
+
+        <section class="recipe-grid">
+            <article class="recipe-card">
+                <img src="images/pasta.jpg" alt="Delicious Biryani">
+                <h2>Biryani</h2>
+                <p class="description">Biryani is an aromatic, layered rice dish from the Indian subcontinent, typically featuring spiced meat and small amounts of vegetables.</p>
+                <ul class="ingredients">
+                    <li>Rice</li>
+                    <li>1 can chopped tomatoes</li>
+                    <li>2 cloves garlic</li>
+                    <li>Chilli flakes to taste</li>
+                    <li>Olive oil, salt, pepper</li>
+                </ul>
+                <div class="instructions">
+                    <h3>Instructions:</h3>
+                    <ol>
+                        <li>Boil pasta according to package directions.</li>
+                        <li>Sauté garlic and chilli in olive oil.</li>
+                        <li>Add tomatoes and simmer.</li>
+                        <li>Combine with pasta.</li>
+                    </ol>
+                </div>
+                <button class="view-recipe-btn">View Recipe</button>
+            </article>
+
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mom's Awesome Cookbook</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

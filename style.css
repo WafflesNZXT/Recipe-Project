@@ -1,0 +1,221 @@
+/* Add these styles to your style.css file */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f7f6;
+    color: #333;
+
+    /* --- Sticky Footer Additions --- */
+    display: flex; /* Make the body a flex container */
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+
+    /* --- Sticky Footer Addition --- */
+    flex-grow: 1; /* Allow the main content area to grow and push the footer down */
+}
+
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+header {
+    background-color: #5cb85c; /* A nice green for freshness */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e0f2f7; /* Lighter shade on hover */
+}
+
+/* Main Content Layout */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.recipe-filter {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* For responsiveness */
+}
+
+.recipe-filter input,
+.recipe-filter select,
+.recipe-filter button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.recipe-filter button {
+    background-color: #007bff; /* Blue for actions */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recipe-filter button:hover {
+    background-color: #0056b3;
+}
+
+/* Recipe Grid */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column; /* Organize content vertically */
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.recipe-card h2 {
+    font-size: 1.8em;
+    color: #333;
+    padding: 15px;
+    margin: 0;
+}
+
+.recipe-card .description {
+    padding: 0 15px 10px;
+    font-style: italic;
+    color: #666;
+    flex-grow: 1; /* Allows description to take up available space */
+}
+
+.recipe-card .ingredients,
+.recipe-card .instructions {
+    padding: 15px;
+    border-top: 1px solid #eee;
+    background-color: #f9f9f9;
+}
+
+.recipe-card .ingredients ul {
+    list-style: inside;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe-card .instructions ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.recipe-card .view-recipe-btn {
+    display: block;
+    width: calc(100% - 30px); /* Account for padding */
+    margin: 15px;
+    padding: 10px 0;
+    background-color: #28a745; /* Green for view button */
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.recipe-card .view-recipe-btn:hover {
+    background-color: #218838;
+}
+
+/* Initially hide detailed parts, show with JS */
+.recipe-card .ingredients,
+.recipe-card .instructions {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .recipe-filter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipe-filter input,
+    .recipe-filter select,
+    .recipe-filter button {
+        width: 80%; /* Make filter elements take up more width */
+    }
+}
