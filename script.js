@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Biryani",
             description: "Biryani is an aromatic, layered rice dish from the Indian subcontinent, typically featuring spiced meat and small amounts of vegetables.",
             category: "dinner",
-            image: "images/pasta.jpg",
+            image: "images/biryani.jpg",
             ingredients: [
                 "200g penne pasta", "1 can (400g) chopped tomatoes", "2 cloves garlic, minced",
                 "1/2 tsp red pepper flakes (or more)", "2 tbsp olive oil", "Salt and black pepper to taste",
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Mash Daal",
             description: "Mash daal, also known as urad dal or white lentil, is a protein-rich and often hearty lentil preparation popular in South Asian cuisine, typically made from split and husked black gram.",
             category: ["dinner", "lunch"],
-            image: "images/pancakes.jpg", // Make sure to have this image!
+            image: "images/mash-daal.jpg", // Make sure to have this image!
             ingredients: [
                 "1 1/2 cups all-purpose flour", "2 tbsp sugar", "1 tbsp baking powder",
                 "1/2 tsp salt", "1 1/4 cups milk", "1 large egg", "2 tbsp melted butter",
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Beef Qeema",
             description: "Beef qeema is a flavorful and often spicy South Asian curry made from minced or ground beef, typically cooked with onions, tomatoes, ginger, garlic, and a blend of aromatic spices, often accompanied by peas or potatoes.",
             category: ["dinner", "lunch"],
-            image: "images/caesar-salad.jpg", // Make sure to have this image!
+            image: "images/beefqeema.png", // Make sure to have this image!
             ingredients: [
                 "1 head romaine lettuce, chopped", "1 cup croutons", "1/2 cup grated Parmesan cheese",
                 "For the dressing:", "1/2 cup mayonnaise", "2 tbsp lemon juice", "1 tbsp Dijon mustard",
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Chocalate Chip Pancakes",
             description: "Chocolate chip pancakes are a beloved breakfast treat featuring fluffy, golden pancakes studded with delightful pockets of melted chocolate.",
             category: ["breakfast"],
-            image: "images/chocolate-chip-pancakes.jpg",
+            image: "images/1500px-Banana-Chocolate-Chip-Pancakes-13-square-846x846.jpg",
             ingredients: [
                 "1 cup of pancake flower", 
                 "2 spoons of chocolate chips", 

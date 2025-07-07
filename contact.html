@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Mom's Culinary Creations</title>
+    <link rel="stylesheet" href="style.css"> <!-- KEEP this link for global styles -->
+
+    <style>
+        /* Styles specific to the Contact page */
+        .contact-page-content {
+            max-width: 600px; /* Make the content narrower for the form */
+            max-height: 350px;
+            margin: 40px auto; /* Center it and add more vertical space */
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            line-height: 1.6;
+        }
+
+        .contact-page-content h2 {
+            text-align: center;
+            color: #5cb85c; /* Match your header green */
+            margin-bottom: 25px;
+        }
+
+        .contact-form label {
+            display: block; /* Make labels appear on their own line */
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: calc(100% - 20px); /* Full width minus padding */
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+
+        .contact-form textarea {
+            resize: vertical; /* Allow vertical resizing */
+            min-height: 120px;
+        }
+
+        .contact-form button {
+            display: block; /* Make button take full width */
+            width: 100%;
+            padding: 12px 20px;
+            background-color: #28a745; /* Your vibrant green button color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+        /* Basic styling for contact info section */
+        .contact-info {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee; /* Separator line */
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #007bff; /* Your blue link color */
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* In your style.css file */
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        /* ... other body styles */
+    }
+
+    main {
+        flex-grow: 1;
+        /* ... other main styles */
+    }
+
+    footer {
+        margin-top: auto; /* This helps ensure it's pushed down */
+        /* ... other footer styles */
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mom's Culinary Creations</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li> <!-- This page's link -->
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page-content">
+        <section>
+            <h2>Get in Touch!</h2>
+            <p style="text-align: center; margin-bottom: 25px;">Have a question, suggestion, or just want to say hello? Reach out to us directly.</p>
+
+            <div class="contact-info">
+                <h3>Direct Contact:</h3>
+                <p>Email: <a href="mailto:info@myculinarycreations.com">info@myculinarycreations.com</a></p>
+                <p>Phone: <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mom's Awesome Cookbook</p>
+    </footer>
+
+    <!-- No JavaScript needed for a basic static contact page -->
+</body>
+</html>
