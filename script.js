@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Chicken Boti: Barbequed",
             description: "Chicken Boti Barbequed, often characterized by its vibrant orange or reddish hue, consists of succulent, bite-sized chicken pieces marinated in a flavorful blend of spices, then grilled or barbecued to perfection, resulting in a tender and smoky delight.",
             category: ["lunch", "dinner"],
-            image: "/images/IMG_5120.jpg",
+            image: "images/IMG_5120.jpg",
             ingredients: [
                 "Chicken Boneless Thigh",
                 "Masala"
